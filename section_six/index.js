@@ -1,4 +1,6 @@
 //edit 
+
+// ############### FREQUENCY COUNTER ###########################################
 function sameFrequency(first, second){
     //split both number 
     //make it into a map (only the first one)
@@ -23,7 +25,7 @@ function sameFrequency(first, second){
      objOne[strOne[i]] ? objOne[strOne[i]] += 1 : objOne[strOne[i]] = 1
      console.log("this is the obj:", objOne)
     }
-    
+    //edit
     for(let j = 0; j < strTwo.length; j++) {
         if(!objOne[strTwo[j]]) {
             return false
@@ -48,4 +50,6 @@ function sameFrequency(first, second){
 
 }
 
-console.log(sameFrequency(814, 413))
+//console.log(sameFrequency(814, 413))
+
+// ##############################################################################
