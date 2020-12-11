@@ -1,6 +1,7 @@
-//edit 
+//second edit
 
 // ############### FREQUENCY COUNTER ###########################################
+
 function sameFrequency(first, second){
     //split both number 
     //make it into a map (only the first one)
@@ -30,26 +31,22 @@ function sameFrequency(first, second){
         if(!objOne[strTwo[j]]) {
             return false
         } else {
-
          objOne[strTwo[j]] -= 1
         }
-
     }
     return true
-
-
-    // for(let key in objOne) {
-    //     if(objOne[key] === 0) {
-    //        // console.log("this is first map:", objOne[key])
-    //       // console.log("values are now empty")
-    //        return true 
-    //     } else {
-    //         return false
-    //     }
-    // }
-
 }
 
 //console.log(sameFrequency(814, 413))
 
 // ##############################################################################
+//implement a function called areThereDuplicates which accepts a variable number of arguments
+//checks whether there are any duplicates among the arguments passed in
+//you can solve this using the frequency counter patter OR the multiple pointers pattern
+
+function areThereDuplicates(){
+
+}
+
+
+console.log(areThereDuplicates())
