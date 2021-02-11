@@ -45,7 +45,7 @@ function sameFrequency(first, second){
 //you can solve this using the frequency counter patter OR the multiple pointers pattern
 
 function areThereDuplicates(){
-
+//duplicates
 }
 
 
